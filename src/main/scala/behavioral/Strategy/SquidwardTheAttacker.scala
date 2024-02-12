@@ -1,10 +1,10 @@
 package behavioral.Strategy
 
 /**
- * Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the
+ * The Strategy pattern defines a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the
    algorithm vary independently from clients that use it.
 
- The Strategy pattern is suitable for tasks where:
+ The SP is suitable for tasks where:
  - many related classes differ only in their behavior. Strategies provide a way to configure a class
    with one of many behaviors.
  - you need different variants of an algorithm. For example, you might define algorithms reflecting
